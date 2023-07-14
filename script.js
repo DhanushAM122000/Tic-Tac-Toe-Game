@@ -45,7 +45,7 @@ const changePlayerTurn=()=>{
     
         playerTurn=playerTurn === currentPlayer ? nextPlayer: currentPlayer;
 }
-//Function Check Win
+//Function to Check Win
 const checkWin =()=>{
     const winningConditions =
     [
