@@ -113,7 +113,7 @@ body{
         grid-template-columns: repeat(3,minmax(90px, 1fr));
     }
 
-    .cel{
+    .cell{
         height: 90px;
         font-size: 50px;
     }
