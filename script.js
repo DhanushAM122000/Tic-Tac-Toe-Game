@@ -42,14 +42,7 @@ const handelClick = (e) =>{
 
 //Function to chainge player's turn
 const changePlayerTurn=()=>{
-    // if(playerTurn === currentPlayer){
-    //     playerTurn =nextPlayer;
-    // }
-    // else{
-    //     playerTurn = currentPlayer;
-    // }
-
-    //Turnary Operator
+    
         playerTurn=playerTurn === currentPlayer ? nextPlayer: currentPlayer;
 }
 //Function Check Win
